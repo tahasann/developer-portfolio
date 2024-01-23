@@ -1,20 +1,27 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
-header{
+
+header {
     background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
 }
+
 /* space between moves everything to the right and left while space around adds right and left margins */
 
 nav ul {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
+
 /* alligns items center horizontally */
 nav li {
     list-style: none;
@@ -44,12 +51,79 @@ nav li a {
     font-weight: 700;
     padding: 16px 35px;
 }
-.banner{
+
+.banner {
     margin: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.profile-pic{
-    width: 500px;
 
+.profile-pic {
+    width: 700px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-text {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    max-width: 585px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about {
+    background: #FFF8F3;
+    margin: 130px 0px;
+    padding: 130px 150px;
+}
+
+.about-text {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* auto makes it centralised for all main ections */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-descr{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
 }
